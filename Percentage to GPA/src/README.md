@@ -60,6 +60,7 @@ This program converts a student's percentage grade into their GPA (Grade Point A
 ## Notes
 
 - Ensure that the input is a **valid numeric value** (e.g., 85 or 85.0). Non-numeric inputs will cause the program to crash.
-----------------***Disclaimer***-----------------------------------------------------------------------------------------------------------------------------
+  
+----------------***Disclaimer***------------------------------------------------------------------------------------------------------------
 * README.md for "GPA to percent range" assignment is genereated using AI prompt (mainly example cases) then checked by Violet to
   ensure readality and comprehension.
