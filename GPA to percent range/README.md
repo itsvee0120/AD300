@@ -62,6 +62,6 @@ Exiting the program.
 This program provides a straightforward way to convert GPA to percentage ranges. Remember to enter a GPA within the valid range or type `exit` to terminate the program when you're done.
 
 ---------------------------------------- ***Disclaimer***------------------------------------------------------------------------------------------------
-* README.md for "GPA to percent range" assignments is genereated using AI prompt (mainly example cases) then checked by Violet to
+* README.md for "GPA to percent range" assignment is genereated using AI prompt (mainly example cases) then checked by Violet to
   ensure readality and comprehension.
 
