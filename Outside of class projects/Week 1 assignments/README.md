@@ -3,7 +3,7 @@
 
 ## Description
 
-The **GPA Converter** is a Java Swing application that allows users to convert a student's percentage score into a GPA (Grade Point Average). The application provides a simple and intuitive graphical user interface (GUI) for easy interaction.
+The **GPA Converter** is a Java Swing application that allows users to convert a student's percentage score into a GPA (Grade Point Average) according to [North Seattle College's grading system](https://northseattle.edu/college-high-school/grading-information). The application provides a simple and intuitive graphical user interface (GUI) for easy interaction.
 
 ## Features
 
@@ -19,7 +19,7 @@ The **GPA Converter** is a Java Swing application that allows users to convert a
 
  ```bash
    git clone https://github.com/itsvee0120/AD300.git
-   cd GPAConverter
+   cd AD300/"Outside of class projects"/"Week 1 assignments"
 ```
 
 
@@ -40,7 +40,7 @@ The **GPA Converter** is a Java Swing application that allows users to convert a
 1. Launch the application.
 2. Enter the student's percentage in the provided text field.
 3. Click on the "Convert to GPA" button.
-4. The calculated GPA will be displayed below the button. If the input percentage is invalid, an appropriate error message will be shown.
+4. The calculated GPA will be displayed. If the input percentage is invalid, an appropriate error message will be shown.
 
 ## Code Structure
 
@@ -68,4 +68,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - This project was created by Violet Nguyen.
 - Inspired by Alex Lee's GUI tutorial : [https://www.youtube.com/watch?v=5o3fMLPY7qY.]
+- README.md for "GPA to percent range" assignment is genereated using AI prompt (mainly example cases) then checked by Violet to
+  ensure readality and comprehension.
 ```
