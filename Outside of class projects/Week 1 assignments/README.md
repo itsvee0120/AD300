@@ -55,6 +55,7 @@ If a student scored **85%**, after entering this value and clicking the "Convert
 ```
 The GPA is: 3.0
 ```
+![{8B1B38C1-CF03-4875-BD26-043133B17128}](https://github.com/user-attachments/assets/4655abd3-ff59-4c05-9333-c1c3b7fc5d97)
 
 ## Contributing
 
