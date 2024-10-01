@@ -17,10 +17,11 @@ The **GPA Converter** is a Java Swing application that allows users to convert a
 1. Ensure you have [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) installed on your machine.
 2. Clone this repository or download the source code files.
 
-   ```bash
-   git clone https://github.com/itsvee0120/AD300/tree/main
+ ```bash
+   git clone https://github.com/itsvee0120/AD300.git
    cd GPAConverter
-   ```
+```
+
 
 3. Compile the Java file using the following command:
 
