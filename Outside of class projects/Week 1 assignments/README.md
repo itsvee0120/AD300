@@ -69,7 +69,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - This project was created by Violet Nguyen.
-- Inspired by [Alex Lee's GUI tutorial](https://www.youtube.com/watch?v=5o3fMLPY7qY.) and other documentations on Java Swing
+- Inspired by [Alex Lee's GUI tutorial](https://www.youtube.com/watch?v=5o3fMLPY7qY.) and other documentations on Java Swing.
 - README.md for "GPA to percent range" assignment is genereated using AI prompt (mainly example cases) then checked by Violet to
   ensure readality and comprehension.
 ```
