@@ -1,6 +1,4 @@
-Here’s a sample `README.md` file for your `GPAConverterGUI` Java application:
 
-```markdown
 # GPA Converter
 
 ## Description
