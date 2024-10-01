@@ -18,7 +18,7 @@ The **GPA Converter** is a Java Swing application that allows users to convert a
 2. Clone this repository or download the source code files.
 
    ```bash
-   git clone <repository-url>
+   git clone (https://github.com/itsvee0120/AD300/tree/main)
    cd GPAConverter
    ```
 
