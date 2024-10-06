@@ -19,10 +19,10 @@ The **Animal Kingdom GUI Application** is a Java-based graphical user interface 
 1. **Open Git Bash** on your computer.
 
 2. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/AnimalApp.git
+ ```bash
+  git clone https://github.com/itsvee0120/AD300.git
+cd AD300/"Animal Kingdom"
    ```
-   Replace `yourusername` with your GitHub username.
 
 3. **Navigate to the Project Directory**:
    ```bash
