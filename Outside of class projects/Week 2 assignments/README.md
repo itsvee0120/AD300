@@ -9,6 +9,7 @@ The **Animal Kingdom GUI Application** is a Java-based graphical user interface 
 - **Dynamic Information Display**: The application updates a text area with specific information about the selected animal, including its name, type, age, eating habits, sleeping habits, and sounds.
 - **Animated Interface**: The welcome label moves across the screen, enhancing the user experience.
 - **Responsive Design**: The GUI adjusts to show a scrollbar when necessary for easy navigation of animal information.
+  
 ![{16990E95-D0EB-408C-9073-0EE52C41EA12}](https://github.com/user-attachments/assets/30fe0870-92c1-4a69-9ba3-3f0d4288cee1)
 
 ## Requirements
