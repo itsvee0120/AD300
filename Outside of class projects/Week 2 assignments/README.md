@@ -11,13 +11,15 @@ The **Animal Kingdom GUI Application** is a Java-based graphical user interface 
 - **Responsive Design**: The GUI adjusts to show a scrollbar when necessary for easy navigation of animal information.
   
 
-
+*** Live Demo ***
 
 
 https://github.com/user-attachments/assets/8286c05c-4f17-4f39-849b-e4fc1e13ffa6
 
 
 
+*** Image Demo ***
+![{6276554A-56EA-469E-8A42-AC5C64F6AD13}](https://github.com/user-attachments/assets/71196d6a-5a50-4202-9bbd-985b2b5f2e02)
 
 
 ## Requirements
