@@ -80,5 +80,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 README.md for "GPA to percent range" assignment is genereated using AI prompt (mainly example cases) then checked by Violet to ensure readality and comprehension.
 
-```
+
 
