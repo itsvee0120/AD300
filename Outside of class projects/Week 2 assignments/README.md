@@ -59,5 +59,5 @@ Contributions are welcome! If you would like to improve this project, please for
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Disclaimer
-README.md for "GPA to percent range" assignment is generated using AI prompts (mainly example cases) then checked by Violet to ensure readability and comprehension.
+README.md for "Animal Kingdom GUI" is generated using AI prompts (mainly example cases) then checked by Violet to ensure readability and comprehension.
 
