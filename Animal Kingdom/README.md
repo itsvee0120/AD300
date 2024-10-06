@@ -45,8 +45,8 @@ The application consists of a base class `Animal`, from which several subclasses
 ## How to Run
 1. **Clone the repository** or **download the source code** to your local machine.
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
+   git clone https://github.com/itsvee0120/AD300/tree/main
+   cd AD300/"Animal Kingdom"/Main
    ```
 
 2. **Navigate to the project directory** where the Java files are located.
