@@ -9,6 +9,7 @@ The **Animal Kingdom GUI Application** is a Java-based graphical user interface 
 - **Dynamic Information Display**: The application updates a text area with specific information about the selected animal, including its name, type, age, eating habits, sleeping habits, and sounds.
 - **Animated Interface**: The welcome label moves across the screen, enhancing the user experience.
 - **Responsive Design**: The GUI adjusts to show a scrollbar when necessary for easy navigation of animal information.
+![{16990E95-D0EB-408C-9073-0EE52C41EA12}](https://github.com/user-attachments/assets/30fe0870-92c1-4a69-9ba3-3f0d4288cee1)
 
 ## Requirements
 - Java Development Kit (JDK) version 8 or higher.
@@ -18,17 +19,18 @@ The **Animal Kingdom GUI Application** is a Java-based graphical user interface 
 ### Using Git Bash
 1. **Open Git Bash** on your computer.
 
-2. **Clone the Repository**:
+2. **Clone the Repository & cd to the project folder**:
  ```bash
-  git clone https://github.com/itsvee0120/AD300.git
-cd AD300/"Animal Kingdom"
+    git clone https://github.com/itsvee0120/AD300.git
+  cd AD300/"Outside of class projects"/"Week 2 assignments"
    ```
 
-3. **Navigate to the Project Directory**:
+3. **Compile & Run the project**:
    ```bash
-   cd AnimalApp
+   javac AnimalAppGUI.java
+   java AnimalAppGUI
    ```
-
+### Using An IDE
 4. **Open the Project**:
    - Import the project into your chosen IDE.
 
@@ -37,7 +39,7 @@ cd AD300/"Animal Kingdom"
 
 ## Running the Application
 1. **Compile the `AnimalAppGUI` class** using your IDE.
-2. **Execute the `main` method** to launch the application.
+2. **Execute the `AnimalAppGUI` class** to launch the application.
 3. Use the dropdown menu to select an animal and view its information.
 
 ## Code Structure
@@ -54,4 +56,7 @@ Contributions are welcome! If you would like to improve this project, please for
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
+
+## Disclaimer
+README.md for "GPA to percent range" assignment is generated using AI prompts (mainly example cases) then checked by Violet to ensure readability and comprehension.
 
