@@ -24,7 +24,7 @@ public abstract class Animal{
         this.age = age;
     }
 
-    //---------Getter/ Setter methods-------//
+    //---------Getter methods-------//
 
     public String getEat(){
         return "eat something";
