@@ -61,6 +61,28 @@ The application consists of a base class `Animal`, from which several subclasses
    java Main
    ```
 
+## How to Run by Downloading ZIP
+1. **Download the ZIP file** of the repository from GitHub.
+   - Go to the repository page and click on the green "Code" button.
+   - Select "Download ZIP."
+
+2. **Extract the ZIP file** to a desired location on your machine.
+
+3. **Open your terminal or command prompt** and navigate to the extracted project directory:
+   ```bash
+   cd path/to/extracted/Animal-Kingdom
+   ```
+
+4. **Compile the Java files** using the following command:
+   ```bash
+   javac Main.java
+   ```
+
+5. **Run the application** using the following command:
+   ```bash
+   java Main
+   ```
+
 ## Example Output
 The application will output various animal behaviors based on the created instances. For example:
 ```
@@ -78,7 +100,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests for 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-README.md for "GPA to percent range" assignment is genereated using AI prompt (mainly example cases) then checked by Violet to ensure readality and comprehension.
-
-
-
+README.md for "GPA to percent range" assignment is generated using AI prompts (mainly example cases) then checked by Violet to ensure reality and comprehension.
