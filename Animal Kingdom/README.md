@@ -1,4 +1,4 @@
-git
+
 # Animal Kingdom Simulator
 
 ## Objective
