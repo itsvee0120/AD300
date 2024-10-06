@@ -1,4 +1,4 @@
-
+git
 # Animal Kingdom Simulator
 
 ## Objective
@@ -42,18 +42,18 @@ The application consists of a base class `Animal`, from which several subclasses
 - The `Main` class creates instances of each subclass and calls their methods to demonstrate their behaviors.
 - It uses an `ArrayList` to store animal objects and iterates through them to invoke methods dynamically based on their types.
 
-## How to Run
+## How to Run using Git Bash
 1. **Clone the repository** or **download the source code** to your local machine.
    ```bash
-   git clone https://github.com/itsvee0120/AD300/tree/main
-   cd AD300/"Animal Kingdom"/Main
+   git clone https://github.com/itsvee0120/AD300.git
+   cd AD300/"Animal Kingdom"
    ```
 
 2. **Navigate to the project directory** where the Java files are located.
 
 3. **Compile the Java files** using the following command:
    ```bash
-   javac *.java
+   javac Main.java
    ```
 
 4. **Run the application** using the following command:
@@ -78,8 +78,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests for 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-- Inspired by object-oriented programming principles.
-- Thanks to online resources and documentation for guidance on Java inheritance and polymorphism.
+README.md for "GPA to percent range" assignment is genereated using AI prompt (mainly example cases) then checked by Violet to ensure readality and comprehension.
 
 ```
 
