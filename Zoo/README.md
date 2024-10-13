@@ -43,7 +43,7 @@ The `ZooDemo` class creates instances of each subclass and calls their methods t
 
    ```bash
    git clone https://github.com/itsvee0120/AD300.git
-   cd AD300/"ZooDemo"
+   cd AD300/"Zoo"
    ```
 
 2. Navigate to the project directory where the Java files are located.
@@ -68,7 +68,7 @@ The `ZooDemo` class creates instances of each subclass and calls their methods t
 5. Open your terminal or command prompt and navigate to the extracted project directory:
 
    ```bash
-   cd path/to/extracted/ZooDemo
+   cd path/to/extracted/Zoo
    ```
 
 6. Compile the Java files using the following command:
