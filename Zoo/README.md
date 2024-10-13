@@ -10,8 +10,8 @@ The application consists of a base class `Animal`, from which several subclasses
 ## Features
 - **Animal Base Class**: Defines common properties and methods for all animals.
 - **Subclasses**:
-  - **Lion**: Represents lions with specific methods and behaviors.
-  - **Elephant**: Represents elephants with their unique methods.
+  - **Lion**: Represents lions and their distinctive sounds.
+  - **Elephant**: Represents elephants  and their distinctive sounds.
   - **Monkey**: Represents monkeys and their distinctive sounds.
 - **Overloading Methods**: The application demonstrates method overloading by allowing animals to make sounds multiple times.
 - **Dynamic Method Invocation**: The application dynamically calls methods based on the animal type at runtime.
