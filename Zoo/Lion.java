@@ -4,11 +4,6 @@ public class Lion extends Animal {
     }
 
     @Override
-    public String getName() {
-        return super.getName();
-    }
-
-    @Override
     public void makeSound() {
         System.out.print(" Roar");
     }
