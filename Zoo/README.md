@@ -1,5 +1,5 @@
 
-# Zoo
+# Zoo Demo
 
 ## Objective
 This Java application simulates the behaviors of different animals in a zoo environment using inheritance and polymorphism. It allows you to explore various animal types and their unique sounds.
