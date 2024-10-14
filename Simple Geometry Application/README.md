@@ -56,8 +56,6 @@ The unit tests cover both normal and edge cases for each shape class. Below are 
 - Java Development Kit (JDK) 8 or higher.
 - An IDE or text editor to run the code.
 
-It looks like you wanted to include the mathematical formulas in your documentation for the "Simple Geometry Application" but they didn't display correctly. To ensure clarity and proper formatting, you can use Markdown to represent the formulas. Here’s how you might structure it:
-
 ## Implementation
 
 ### Base Class - Shape
@@ -71,35 +69,23 @@ It looks like you wanted to include the mathematical formulas in your documentat
 
 ### Subclasses
 - **Circle Class**:
-    - Calculates area using the formula:
-      \[
-      \text{Area} = \pi \times \text{radius}^2
-      \]
-    - Calculates perimeter using the formula:
-      \[
-      \text{Perimeter} = 2 \times \pi \times \text{radius}
-      \]
+    - Calculates area using the formula: 
+      - Area = π × radius²
+    - Calculates perimeter using the formula: 
+      - Perimeter = 2 × π × radius
 
 - **Rectangle Class**:
-    - Calculates area using the formula:
-      \[
-      \text{Area} = \text{length} \times \text{width}
-      \]
-    - Calculates perimeter using the formula:
-      \[
-      \text{Perimeter} = 2 \times (\text{length} + \text{width})
-      \]
+    - Calculates area using the formula: 
+      - Area = length × width
+    - Calculates perimeter using the formula: 
+      - Perimeter = 2 × (length + width)
 
 - **Triangle Class**:
-    - Calculates area using Heron's formula:
-      \[
-      \text{Area} = \sqrt{s \times (s - a) \times (s - b) \times (s - c)}
-      \]
-      where \( s = \frac{a + b + c}{2} \) is the semi-perimeter, and \( a, b, c \) are the lengths of the sides.
-    - Calculates perimeter by summing all three sides:
-      \[
-      \text{Perimeter} = a + b + c
-      \]
+    - Calculates area using Heron's formula: 
+      - Area = √(s × (s - a) × (s - b) × (s - c)), 
+      where **s** is the semi-perimeter calculated as \( s = (a + b + c) / 2 \) and **a**, **b**, **c** are the lengths of the sides.
+    - Calculates perimeter by summing all three sides: 
+      - Perimeter = a + b + c
 
 ### Main Class
 The `Main` class creates instances of each subclass and calls their methods to demonstrate their behaviors. It uses an `ArrayList` to store shape objects and iterates through them to invoke methods dynamically based on their types.
