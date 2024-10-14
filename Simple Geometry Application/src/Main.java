@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
+
         // Instantiate a new Circle object
         Circle circle = new Circle("Circle", 5); // Pass radius as 5
         Rectangle rectangle = new Rectangle("Rectangle", 2, 6);

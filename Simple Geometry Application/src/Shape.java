@@ -8,10 +8,10 @@ public abstract class Shape {
         this.name = name;
     }
 
-    // Abstract class to calculate Area return nothing
+    // Abstract class to calculate Area
     public abstract double calculateArea();
 
-    // Abstract class to calculate Perimeter return nothing
+    // Abstract class to calculate Perimeter
     public abstract double calculatePerimeter();
 
     // Concrete method that return shape name
