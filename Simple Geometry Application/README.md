@@ -2,7 +2,7 @@
 # Simple Geometry Application
 
 ## Objective
-This Java application simulates various geometric shapes, demonstrating the concepts of inheritance and polymorphism. It allows users to explore different shape types and calculate their areas and perimeters.
+This Java application simulates various geometric shapes, demonstrating the concepts of abstract class, inheritance and polymorphism. It allows users to explore different shape types and calculate their areas and perimeters.
 
 ## Overview
 The application consists of a base class `Shape`, from which several subclasses derive. Each subclass represents a different type of geometric shape and overrides certain methods to provide specific behavior for calculating area and perimeter.
