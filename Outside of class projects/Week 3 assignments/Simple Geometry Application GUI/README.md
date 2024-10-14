@@ -41,11 +41,11 @@ The application includes basic error handling to manage any exceptions that may 
 2. Navigate to the project directory where the Java files are located.
 3. Compile the Java files using the following command:
    ```bash
-   javac Main.java
+   javac GUI.java
    ```
 4. Run the application using the following command:
    ```bash
-   java Main
+   java GUI
    ```
 
 ## Example Output
