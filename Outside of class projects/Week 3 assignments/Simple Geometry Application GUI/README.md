@@ -36,7 +36,7 @@ The application includes basic error handling to manage any exceptions that may 
 1. Clone the repository or download the source code to your local machine.
    ```bash
    git clone https://github.com/itsvee0120/AD300.git
-   cd AD300/"Week 3 assignments"/"Simple Geometry Application" 
+   cd AD300/"Outside of class projects"/"Week 3 assignments"/"Simple Geometry Application GUI"
    ```
 2. Navigate to the project directory where the Java files are located.
 3. Compile the Java files using the following command:
