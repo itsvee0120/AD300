@@ -8,5 +8,5 @@ AD 300: Component Software is a required course in the [Application Development 
 
 ## What's in this Repo?
 - **Assignments:** Coursework for AD300.
-- **Projects:** Personal projects that extend class assignments, often by adding features like graphical user interfaces (GUIs). These projects help deepen my understanding of key concepts covered in the course.
+- **Outside Of Class Projects:** Personal projects that extend class assignments, often by adding features like graphical user interfaces (GUIs). These projects help deepen my understanding of key concepts covered in the course.
 
