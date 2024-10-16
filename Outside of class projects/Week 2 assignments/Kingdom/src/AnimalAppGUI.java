@@ -37,7 +37,7 @@ public class AnimalAppGUI {
         frame.setLayout(new BorderLayout());
 
         // Frame Icon Setup
-        ImageIcon image = new ImageIcon("Icon.png");
+        ImageIcon image = new ImageIcon(getClass().getResource("/resources/Icon.png"));
         frame.setIconImage(image.getImage());
 
         // Animal List Initialization
@@ -85,8 +85,9 @@ public class AnimalAppGUI {
 
         // Image Label Setup Section
         imageLabel = new JLabel();
-        ImageIcon img = resizeImageIcon(new ImageIcon("Dog.png"), 160, 160);
-        imageLabel.setIcon(img);
+        // Image Label Setup
+        ImageIcon img = new ImageIcon(getClass().getResource("/resources/Dog.png"));
+        imageLabel.setIcon(resizeImageIcon(img, 160, 160));
         imageLabel.setHorizontalAlignment(JLabel.CENTER);
 
         // Label Panel Setup Section
@@ -128,12 +129,12 @@ public class AnimalAppGUI {
         movementTimer.start();
     }
 
-    // Method to Resize ImageIcon for JLabel
     private ImageIcon resizeImageIcon(ImageIcon icon, int width, int height) {
         Image img = icon.getImage();
         Image resizedImg = img.getScaledInstance(width, height, Image.SCALE_SMOOTH);
         return new ImageIcon(resizedImg);
     }
+
 
     private class AnimalSelectionListener implements ActionListener {
         @Override
