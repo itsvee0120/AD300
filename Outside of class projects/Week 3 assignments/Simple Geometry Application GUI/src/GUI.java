@@ -21,6 +21,8 @@ public class GUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         frame.setLayout(new BorderLayout());
+        ImageIcon image = new ImageIcon(this.getClass().getResource("/resources/Icon.png"));
+        this.frame.setIconImage(image.getImage());
 
         // Initialize input panel
         JPanel inputPanel = new JPanel();
