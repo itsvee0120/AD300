@@ -5,6 +5,9 @@
 
 The **GPA Converter** is a Java Swing application that allows users to convert a student's percentage score into a GPA (Grade Point Average) according to [North Seattle College's grading system](https://northseattle.edu/college-high-school/grading-information). The application provides a simple and intuitive graphical user interface (GUI) for easy interaction.
 
+## Download GPA Calculator Application
+[Click here to download the application to your desktop](https://drive.google.com/file/d/148diyhQW02SSlwmeQlzNN-Oq4GayaA3W/view?usp=drive_link)
+
 ## Features
 
 - Input field for entering a student's percentage.
