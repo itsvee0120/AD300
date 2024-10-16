@@ -7,6 +7,9 @@ This Java application implements a graphical user interface (GUI) to demonstrate
 
 ## Download the application on to your computer
 Download the application Geometry Calculator.exe [here](https://drive.google.com/file/d/1-YeL0ONZhW_hM6Ob5ZIJDKA8E_vtds2J/view?usp=drive_link)
+### Requirements
+- Java Development Kit (JDK) 8 or higher.
+- An IDE (like IntelliJ IDEA or Eclipse) or text editor to run the code.
 
 ## Overview
 The application utilizes `JFrame` as the main window and includes a button panel to host various buttons. It demonstrates how to effectively manage layout and user interactions, ensuring that components are properly displayed and functional.
@@ -17,9 +20,6 @@ The application utilizes `JFrame` as the main window and includes a button panel
 - **Button Actions**: Each button performs specific actions when clicked, demonstrating event handling.
 - **Layout Management**: Utilizes `FlowLayout` for button arrangement, allowing for a dynamic and responsive design.
 
-## Requirements
-- Java Development Kit (JDK) 8 or higher.
-- An IDE (like IntelliJ IDEA or Eclipse) or text editor to run the code.
 
 ## Implementation
 ### Main Class
