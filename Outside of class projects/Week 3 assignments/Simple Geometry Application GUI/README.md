@@ -5,7 +5,7 @@
 ## Objective
 This Java application implements a graphical user interface (GUI) to demonstrate the use of Swing components and layout management in Java. It allows users to interact with the application through buttons, showcasing the principles of event handling and GUI design.
 
-Download the executable Jar file (here[https://drive.google.com/file/d/1YHzx40HoZSU0jLsE5w_1Hwy0VJD8fdz8/view?usp=drive_link])
+Download the executable Jar file [here](https://drive.google.com/file/d/1YHzx40HoZSU0jLsE5w_1Hwy0VJD8fdz8/view?usp=drive_link)
 
 ## Overview
 The application utilizes `JFrame` as the main window and includes a button panel to host various buttons. It demonstrates how to effectively manage layout and user interactions, ensuring that components are properly displayed and functional.
@@ -57,7 +57,7 @@ Upon running the application, users will see a window displaying buttons. Clicki
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements or new features.
 
 ## License
-This project is licensed under the MIT License - see LICENSE for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 This README was generated using AI prompts, with contributions and edits by Violet to ensure clarity and completeness.
