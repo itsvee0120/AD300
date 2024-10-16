@@ -5,6 +5,9 @@
 ## Objective
 This Java application implements a graphical user interface (GUI) to demonstrate the use of Swing components and layout management in Java. It allows users to interact with the application through buttons, showcasing the principles of event handling and GUI design.
 
+## Download the application on to your computer
+Download the executable Jar file - Geometry Calculator.exe [here](https://drive.google.com/file/d/1-YeL0ONZhW_hM6Ob5ZIJDKA8E_vtds2J/view?usp=drive_link)
+
 ## Overview
 The application utilizes `JFrame` as the main window and includes a button panel to host various buttons. It demonstrates how to effectively manage layout and user interactions, ensuring that components are properly displayed and functional.
 
@@ -55,7 +58,7 @@ Upon running the application, users will see a window displaying buttons. Clicki
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements or new features.
 
 ## License
-This project is licensed under the MIT License - see LICENSE for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 This README was generated using AI prompts, with contributions and edits by Violet to ensure clarity and completeness.

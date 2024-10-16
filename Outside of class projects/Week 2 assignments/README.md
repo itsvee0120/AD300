@@ -4,6 +4,10 @@
 ## Overview
 The **Animal Kingdom GUI Application** is a Java-based graphical user interface (GUI) that allows users to explore various animals in an engaging and interactive manner. Users can select different animals from a dropdown menu and view detailed information about each one, including their characteristics and behaviors.
 
+## Download Animal Kingdom Application
+[Click here to download the application to your desktop](https://drive.google.com/file/d/15gnB0SBaSahdlA8Nk47iMMDdd5qNQPFQ/view?usp=drive_link)
+
+
 ## Features
 - **Animal Selection**: Users can choose from a list of animals, including Dog, Cat, Fish, Bird, Lion, Rabbit, Elephant, and Cheetah.
 - **Dynamic Information Display**: The application updates a text area with specific information about the selected animal, including its name, type, age, eating habits, sleeping habits, and sounds.
@@ -71,7 +75,7 @@ https://github.com/user-attachments/assets/81ef35ec-6180-476e-900d-c3a5dcd81315
 Contributions are welcome! If you would like to improve this project, please fork the repository and submit a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 README.md for "Animal Kingdom GUI" is generated using AI prompts (mainly example cases) then checked by Violet to ensure readability and comprehension.
