@@ -10,6 +10,12 @@ The **GPA Converter** is a Java Swing application that allows users to convert a
 
 **Ensure you have [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) installed on your machine.**
 
+## Application Demo
+
+
+https://github.com/user-attachments/assets/240aa57e-10e3-4a7e-b5c7-c8504e9c5825
+
+
 ## Features
 
 - Input field for entering a student's percentage.
@@ -60,8 +66,6 @@ If a student scored **85%**, after entering this value and clicking the "Convert
 ```
 The GPA is: 3.0
 ```
-![{F2C2E2CF-0B62-464D-BA61-1D3581A6C0D0}](https://github.com/user-attachments/assets/b0774ead-e329-41da-8c44-495d7536dc41)
-
 
 
 ## License
