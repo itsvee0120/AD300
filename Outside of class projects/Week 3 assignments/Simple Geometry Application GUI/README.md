@@ -1,12 +1,12 @@
 
 
-# Simple GUI Application
+# Simple Geometry Calculator GUI Application
 
 ## Objective
 This Java application implements a graphical user interface (GUI) to demonstrate the use of Swing components and layout management in Java. It allows users to interact with the application through buttons, showcasing the principles of event handling and GUI design.
 
 ## Download the application on to your computer
-Download the executable Jar file - Geometry Calculator.exe [here](https://drive.google.com/file/d/1-YeL0ONZhW_hM6Ob5ZIJDKA8E_vtds2J/view?usp=drive_link)
+Download the application Geometry Calculator.exe [here](https://drive.google.com/file/d/1-YeL0ONZhW_hM6Ob5ZIJDKA8E_vtds2J/view?usp=drive_link)
 
 ## Overview
 The application utilizes `JFrame` as the main window and includes a button panel to host various buttons. It demonstrates how to effectively manage layout and user interactions, ensuring that components are properly displayed and functional.
@@ -20,7 +20,7 @@ The application utilizes `JFrame` as the main window and includes a button panel
 ## Requirements
 - Java Development Kit (JDK) 8 or higher.
 - An IDE (like IntelliJ IDEA or Eclipse) or text editor to run the code.
-
+  
 ## Implementation
 ### Main Class
 The main class sets up the `JFrame` and initializes the components, including the button panel. The buttons are added to the panel, and action listeners are assigned to handle user interactions.
