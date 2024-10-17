@@ -8,6 +8,8 @@ The **GPA Converter** is a Java Swing application that allows users to convert a
 ## Download GPA Calculator Application
 [Click here to download the application to your desktop](https://drive.google.com/file/d/1-ZArE0bHxQnwORupzkxEvYLAlfsP4s8t/view?usp=drive_link)
 
+**Ensure you have [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) installed on your machine.**
+
 ## Features
 
 - Input field for entering a student's percentage.
