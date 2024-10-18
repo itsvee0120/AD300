@@ -4,6 +4,7 @@ enhancing comprehension of key concepts through the integration of features such
 * Packaged Java applications for distribution using GraalVM's native-image to improve performance and deployment efficiency.
 
 ## Google Drive
-All of my applications can be [found here](https://drive.google.com/drive/folders/1xoAnxlHlmkkY-YMVm9t5hXUrryiei4xd?usp=drive_link)
+All of my applications can be [found here](https://drive.google.com/drive/folders/1xoAnxlHlmkkY-YMVm9t5hXUrryiei4xd?usp=drive_link).
+
 **To download and run the applications please ensure you have [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 installed on your machine.**
