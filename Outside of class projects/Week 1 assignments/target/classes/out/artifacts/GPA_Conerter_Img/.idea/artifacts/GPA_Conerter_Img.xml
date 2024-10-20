@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jlink" name="GPA Conerter Img">
+    <output-path>$PROJECT_DIR$/out/artifacts/GPA_Conerter_Img</output-path>
+    <root id="root">
+      <element id="module-output" name="Week 1 assignments" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+    </root>
+  </artifact>
+</component>
