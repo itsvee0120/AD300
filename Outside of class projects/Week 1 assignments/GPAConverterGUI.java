@@ -168,7 +168,7 @@ public class GPAConverterGUI extends JFrame {
                     resultTextArea.setText(gpa >= 0 ? "The GPA is: " + gpa : "Invalid percentage entered.");
                 }
             } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(resultTextArea, "Please enter a valid number", "Input Error", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(promptPanel, "Please enter a valid number", "Input Error", JOptionPane.ERROR_MESSAGE);
             }
         }
     }
