@@ -8,6 +8,7 @@ public class Main {
         StreamingPlayer stream = new StreamingPlayer("Streaming", "NBC's news");
 
         System.out.println("\nViolet's Media Player\n");
+
         ArrayList<MediaPlayer> player = new ArrayList<>();
         player.add(audio);
         player.add(video);
