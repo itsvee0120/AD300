@@ -17,6 +17,7 @@ public class GPAConverterGUI extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setIconImage(new ImageIcon(this.getClass().getResource("/gpa.png")).getImage());
         setLayout(new BorderLayout());
+        setLocationRelativeTo(null);
 
         // Main panel
         JPanel panel = new JPanel();
