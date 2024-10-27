@@ -12,7 +12,7 @@ public class Student {
         return name;
     }
 
-    public String getSubject(){
+    public String getGrade(){
         return grade;
     }
 

@@ -14,11 +14,12 @@ public class School {
     public void add(Department department){
         departments.add(department);
     }
+
     public List<Department> getDepartments() {
         return departments;
     }
 
-    /// Method to display school info
+    // Method to display school info
     public void displayInfo() {
         System.out.println("School Name: " + name);
       System.out.println();
