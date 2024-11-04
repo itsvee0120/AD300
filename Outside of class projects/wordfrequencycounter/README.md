@@ -6,7 +6,7 @@ The **Word Counter & Word Frequency Counter** application allows users to upload
 
 ## Install The App To Your Computer
 * If your machine has a JDK/JRE already click on [this link to download the app](https://drive.google.com/file/d/1E7JWt77YsocIfMO1jU6FJLUTf27BuDpi/view?usp=drive_link)
-* If you do not have a JDK/JRE or not sure click on [this link to install using an installer](https://drive.google.com/drive/folders/1ELXtVlVzOGqtWw8kxamrjGR-5aFwN4cn?usp=drive_link)
+* If you do not have a JDK/JRE or not sure click on [this link to install using an installer](https://drive.google.com/file/d/10NECDFdscUAQr_NG-X8B58qKb7RGO0Jb/view?usp=drive_link)
 
 ## Features
 
