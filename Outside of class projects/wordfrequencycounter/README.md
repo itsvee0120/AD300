@@ -8,6 +8,11 @@ The **Word Counter & Word Frequency Counter** application allows users to upload
 * If your machine has a JDK/JRE already click on [this link to download the app](https://drive.google.com/file/d/1E7JWt77YsocIfMO1jU6FJLUTf27BuDpi/view?usp=drive_link)
 * If you do not have a JDK/JRE or not sure click on [this link to install using an installer](https://drive.google.com/file/d/10NECDFdscUAQr_NG-X8B58qKb7RGO0Jb/view?usp=drive_link)
 
+## Demo
+
+https://github.com/user-attachments/assets/272774fe-d7d5-4b5f-a45e-a60a17b018a6
+
+
 ## Features
 
 - **File Selection**: Users can upload `.doc`, `.docx`, or `.txt` files using a "Select File" button.
