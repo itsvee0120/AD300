@@ -17,8 +17,7 @@ import java.util.TreeMap;
 public class MyFrame extends JFrame implements ActionListener {
 
     JFrame frame;
-    JButton selectButton;
-    JButton resetButton; // New reset button
+    JButton selectButton, resetButton;
     JLabel label;
     JTextArea resultArea, countArea;
     JScrollPane scrollPane;
