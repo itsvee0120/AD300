@@ -1,7 +1,10 @@
+import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.poi.hwpf.HWPFDocument;
 import org.apache.poi.hwpf.extractor.WordExtractor;
 import org.apache.poi.xwpf.extractor.XWPFWordExtractor;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
+import org.apache.pdfbox.pdmodel.PDDocument;
+
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -113,7 +116,7 @@ public class MyFrame extends JFrame implements ActionListener {
         if (e.getSource() == selectButton) {
             JFileChooser fileChooser = new JFileChooser();
             fileChooser.setCurrentDirectory(new File("./src/main/resources"));
-            fileChooser.setFileFilter(new FileNameExtensionFilter("Document Files", "doc", "docx", "txt"));
+            fileChooser.setFileFilter(new FileNameExtensionFilter("Document Files", "doc", "docx", "txt", "pdf"));
 
             int response = fileChooser.showOpenDialog(null);
             if (response == JFileChooser.APPROVE_OPTION) {
@@ -127,8 +130,10 @@ public class MyFrame extends JFrame implements ActionListener {
                     readDocxFile(file);
                 } else if (file.getName().endsWith(".txt")) {
                     readTxtFile(file);
+                }else if (file.getName().endsWith(".pdf")) {
+                    readPdfFile(file);
                 } else {
-                    resultArea.append("Please select a .doc, .docx, or .txt file.\n");
+                    resultArea.append("Please select a .doc, .docx, .pdf or .txt file.\n");
                 }
             }
         } else if (e.getSource() == resetButton) {
@@ -136,6 +141,22 @@ public class MyFrame extends JFrame implements ActionListener {
             countArea.setText("");
         }
     }
+
+    // Method to read the .pdf file
+    private void readPdfFile(File file) {
+        try (FileInputStream fis = new FileInputStream(file);
+             PDDocument document = PDDocument.load(fis)) {
+
+            PDFTextStripper extractor = new PDFTextStripper();
+            String text = extractor.getText(document);
+            String[] paragraphs = text.split("\\r?\\n");
+            processParagraphs(paragraphs);
+
+        } catch (IOException e) {
+            resultArea.append("Error reading the file: " + e.getMessage() + "\n");
+        }
+    }
+
 
     // Method to read the .doc file
     public void readDocFile(File file) {
