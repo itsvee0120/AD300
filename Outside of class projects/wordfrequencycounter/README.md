@@ -5,12 +5,12 @@
 The **Word Counter & Word Frequency Counter** application allows users to upload `.doc`, `.docx`, `.pdf` or `.txt` files and view the total word count along with the frequency of each word in the document. The application uses Apache POI for reading `.doc` and `.docx` files, Apache PDFBox for reading `.pdf` files and provides a simple GUI for ease of use.
 
 ## Install The App To Your Computer
-### If your machine has a JDK/JRE already download the belows:
+ If your machine has a JDK/JRE already download the belows:
    **Please read the version's description carefully as there is a significant changes between version 1.1 and 1.2**
     - [Version 1.1 - allows users to upload `.doc`, `.docx`, `.txt`](https://drive.google.com/file/d/1E7JWt77YsocIfMO1jU6FJLUTf27BuDpi/view?usp=drive_link)
     - [Version 1.2 - allows users to upload `.doc`, `.docx`, `.pdf`,`.txt`](https://drive.google.com/file/d/1E7JWt77YsocIfMO1jU6FJLUTf27BuDpi/view?usp=drive_link)
 
-### If you do not have a JDK/JRE or not sure download the versions below to install using an installer:
+ If you do not have a JDK/JRE or not sure download the versions below to install using an installer:
        **Please read the version's description carefully as there is a significant changes between version 1.1 and 1.2**
       -  [Version 1.1 - allows users to upload `.doc`, `.docx`, `.txt`](https://drive.google.com/file/d/10NECDFdscUAQr_NG-X8B58qKb7RGO0Jb/view?usp=drive_link)
       -  [Version 1.2 - allows users to upload `.doc`, `.docx`, `.pdf`,`.txt`](https://drive.google.com/file/d/10NECDFdscUAQr_NG-X8B58qKb7RGO0Jb/view?usp=drive_link)
