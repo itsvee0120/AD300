@@ -14,7 +14,7 @@ The **Word Counter & Word Frequency Counter** application allows users to upload
 | Description                                                                                                                         | Download Link                                                                                                                       |
 |-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | **Version 1.1** - allows users to upload `.doc`, `.docx`, `.txt`                                                                    | [Download Version 1.1](https://drive.google.com/file/d/1E7JWt77YsocIfMO1jU6FJLUTf27BuDpi/view?usp=drive_link)                    |
-| **Version 1.2** - allows users to upload `.doc`, `.docx`, `.pdf`, `.txt`                                                          | [Download Version 1.2](https://drive.google.com/file/d/1E7JWt77YsocIfMO1jU6FJLUTf27BuDpi/view?usp=drive_link)                    |
+| **Version 1.2** - allows users to upload `.doc`, `.docx`, `.pdf`, `.txt`                                                          | [Download Version 1.2](https://drive.google.com/file/d/1yaMOlqMzKhqbC7eVtNzbZDhOT0E2dukl/view?usp=drive_link)                    |
 
 ---
 
