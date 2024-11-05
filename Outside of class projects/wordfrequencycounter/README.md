@@ -57,25 +57,24 @@ Here's a sample README for your project, which you can customize further based o
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/itsvee0120/AD300.git
-   cd AD300/GPAConverter
    ```
 
 2. **Set up your Java environment:**
    Ensure you have Java Development Kit (JDK) installed on your machine. You can download it from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
 3. **Add dependencies:**
-   Include the following libraries in your project:
+   The `pom.xml` file in this project should be enough, However if needed, please, include the following libraries in your project:
    - [Apache PDFBox](https://pdfbox.apache.org/download.cgi)
    - [Apache POI](https://poi.apache.org/download.html)
 
    You can add them to your project manually or use a build tool like Maven or Gradle.
 
-4. **Compile and run:**
-   Compile the Java files and run the `MyFrame` class to launch the application.
+5. **Compile and run:**
+   Compile the Java files and run the `Main` class to launch the application.
 
    ```bash
-   javac -cp "path_to_pdfbox_and_poi_jars:." MyFrame.java
-   java -cp "path_to_pdfbox_and_poi_jars:." MyFrame
+   javac Main.java
+   java Main
    ```
 
 ## Usage
