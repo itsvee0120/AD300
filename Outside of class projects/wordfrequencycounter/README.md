@@ -21,10 +21,9 @@ The **Word Counter & Word Frequency Counter** application allows users to upload
 ### If You Do Not Have a JDK/JRE or Are Not Sure
 
 
-| Description                                                                                                                         | Download Link                                                                                                                       |
-|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-
-| **Version 1.2** - allows users to upload `.doc`, `.docx`, `.pdf`, `.txt`                                                          | [Download Version 1.2](https://drive.google.com/file/d/1b6RDZ9vS-NyVeTqQwbsgbqZSVwWAWJU9/view?usp=drive_link)                    |
+| Description                                                                                                                       | Download Link                                                                                                                     |
+|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| **Version 1.2** - Allows users to upload `.doc`, `.docx`, `.pdf`, and `.txt` files.                                             | [Download Version 1.2](https://drive.google.com/file/d/1b6RDZ9vS-NyVeTqQwbsgbqZSVwWAWJU9/view?usp=drive_link)                  |
 
 
 ## Demo
