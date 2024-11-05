@@ -19,7 +19,7 @@ The **Word Counter & Word Frequency Counter** application allows users to upload
 ---
 
 ### If You Do Not Have a JDK/JRE or Are Not Sure
-
+**Version 1.1 is not available**
 
 | Description                                                                                                                       | Download Link                                                                                                                     |
 |-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
