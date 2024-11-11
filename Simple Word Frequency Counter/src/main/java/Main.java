@@ -7,21 +7,6 @@ import java.util.TreeMap;
 
 public class Main {
 
-    public static void main(String[] args) {
-
-        try {
-            File file = new File("./src/main/resources/mytext.txt");
-            Map<String, Integer> wordMap = countWordsInFile(file);
-
-            System.out.println("\nWord Frequencies: \n");
-            for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
-                System.out.println(entry.getKey() + ": " + entry.getValue());
-            }
-
-        } catch (FileNotFoundException e) {
-            System.out.println("Couldn't find the file.");
-        }
-    }
 
     public static Map<String, Integer> countWordsInFile(File file) throws FileNotFoundException   {
         HashMap<String, Integer> hashword = new HashMap<>();
@@ -47,6 +32,21 @@ public class Main {
         }
     }
 
+    public static void main(String[] args) {
+
+        try {
+            File file = new File("./src/main/resources/mytext.txt");
+            Map<String, Integer> wordMap = countWordsInFile(file);
+
+            System.out.println("\nWord Frequencies: \n");
+            for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
+                System.out.println(entry.getKey() + ": " + entry.getValue());
+            }
+
+        } catch (FileNotFoundException e) {
+            System.out.println("Couldn't find the file.");
+        }
+    }
 
 
 
