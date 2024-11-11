@@ -1,6 +1,4 @@
-Here’s the updated README reflecting the changes you requested for your Student Record Manager project:
 
----
 
 # Student Record Manager
 
