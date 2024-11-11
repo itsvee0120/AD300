@@ -1,3 +1,6 @@
+Here’s the updated README reflecting the changes you requested for your Student Record Manager project:
+
+---
 
 # Student Record Manager
 
@@ -76,23 +79,25 @@ public static void main(String[] args) {
 ### Methods
 
 1. **addStudentRecord(int id, String name, double gpa)**
-    - Adds a student record to the system.
-    
+   - Adds a student record to the system.
+
 
 2. **deleteStudentRecord(int id)**
-    - Deletes a student record by their ID.
-   
+   - Deletes a student record by their ID.
+
+
 
 3. **updateStudentGpa(int id, double newGpa)**
-    - Updates the GPA of a student based on their ID.
-   
+   - Updates the GPA of a student based on their ID.
+
+
 
 4. **displayAllRecords()**
-    - Displays all student records sorted by their student ID.
+   - Displays all student records sorted by their student ID.
 
 
 5. **findStudentsWithGpaHigherThan(double gpa)**
-    - Displays all students whose GPA is higher than the specified value.
+   - Displays all students whose GPA is higher than the specified value.
 
 ## Example Output
 
@@ -104,12 +109,12 @@ ID: 103, Name: Charlie, GPA: 3.2
 ID: 104, Name: Diana, GPA: 3.9
 ID: 105, Name: Eve, GPA: 2.6
 
-Student GPA updated for ID 103
+Student GPA updated for ID 103; new GPA: 3.6
 After GPA Update:
 All Student Records:
 ID: 101, Name: Alice, GPA: 3.5
 ID: 102, Name: Bob, GPA: 2.8
-ID: 103, Name: Charlie, GPA: 2.0
+ID: 103, Name: Charlie, GPA: 3.6
 ID: 104, Name: Diana, GPA: 3.9
 ID: 105, Name: Eve, GPA: 2.6
 
@@ -117,12 +122,13 @@ Student with ID 102 deleted.
 After Deletion:
 All Student Records:
 ID: 101, Name: Alice, GPA: 3.5
-ID: 103, Name: Charlie, GPA: 2.0
+ID: 103, Name: Charlie, GPA: 3.6
 ID: 104, Name: Diana, GPA: 3.9
 ID: 105, Name: Eve, GPA: 2.6
 
 Students with GPA higher than 3.0:
 ID: 101, Name: Alice, GPA: 3.5
+ID: 103, Name: Charlie, GPA: 3.6
 ID: 104, Name: Diana, GPA: 3.9
 ```
 
@@ -137,4 +143,3 @@ ID: 104, Name: Diana, GPA: 3.9
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
