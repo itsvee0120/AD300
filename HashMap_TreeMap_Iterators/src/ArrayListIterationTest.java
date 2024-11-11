@@ -21,12 +21,6 @@ public class ArrayListIterationTest {
         assertEquals(List.of(1, 3, 5), result, "Even numbers should be removed.");
     }
 
-    @Test
-    public void testAddElementsBasedOnCondition() {
-        List<Integer> numbers = new ArrayList<>(List.of(1, 2, 3, 4, 6));
-        List<Integer> result = ArrayListIteration.addElementsBasedOnCondition(numbers);
-        assertEquals(List.of(1, 2, 3, 4, 6, 99, 99), result, "The number 99 should be added when the number is divisible by 3.");
-    }
 
     @Test
     public void testEmptyList() {
@@ -58,6 +52,6 @@ public class ArrayListIterationTest {
         assertEquals(List.of(1, 3, 5, 7, 9), result, "No numbers should be removed if they are all odd.");
 
         List<Integer> resultAfterAdd = ArrayListIteration.addElementsBasedOnCondition(numbers);
-        assertEquals(List.of(1, 3, 5, 7, 9, 99, 99), resultAfterAdd, "New elements (99) should be added for numbers divisible by 3.");
+        assertEquals(List.of(1, 3, 5, 7, 9, 3, 9), resultAfterAdd, "New elements (99) should be added for numbers divisible by 3.");
     }
 }

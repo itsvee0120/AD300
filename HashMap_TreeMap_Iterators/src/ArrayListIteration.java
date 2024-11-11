@@ -8,6 +8,7 @@ public class ArrayListIteration {
     public static void main(String[] args) {
         // Creating a list with random numbers
         ArrayList<Integer> numbers = generateRandomNumbers(10);
+        System.out.println("Original list: " + numbers);
 
         // Iteration and calculations
         int sum = calculateSum(numbers);
@@ -53,7 +54,7 @@ public class ArrayListIteration {
         List<Integer> tempList = new ArrayList<>();
         for (int num : numbers) {
             if (num % 3 == 0) {
-                tempList.add(99);
+                tempList.add(num);
             }
         }
         numbers.addAll(tempList);
