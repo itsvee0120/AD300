@@ -28,7 +28,7 @@ public class Main {
         manager.displayAllRecords();
         System.out.println();
         // Find students with GPA higher than 3.0
-        manager.findStudentsWithGpaHigherThan(3.0);
+        manager.findStudentsWithGpaHigherThan(3.7);
         System.out.println();
         // Adding a student with duplicate ID (101)
         manager.addOrUpdateStudentRecord("101", "Alice Smith", 3.8); // This should update Alice's record
