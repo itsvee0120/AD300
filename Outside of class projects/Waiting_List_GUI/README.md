@@ -8,7 +8,7 @@ The **Waiting List Manager** is a Java-based graphical user interface (GUI) appl
 
 
 ## Download the application on to your computer
-Download the application Geometry Calculator.exe [here](https://drive.google.com/file/d/1-r_EyXH2sYvOoGV2jGeMgnPpQSmV1TQQ/view?usp=drive_link)
+Download the application Waiting List Managerr.exe [here](https://drive.google.com/file/d/1-r_EyXH2sYvOoGV2jGeMgnPpQSmV1TQQ/view?usp=drive_link)
 
 **To download and run the applications please ensure you have [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 installed on your machine.**
