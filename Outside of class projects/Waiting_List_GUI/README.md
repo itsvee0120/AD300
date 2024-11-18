@@ -14,6 +14,13 @@ Download the application Geometry Calculator.exe [here](https://drive.google.com
 **To download and run the applications please ensure you have [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 installed on your machine.**
 
+## Demo
+
+
+https://github.com/user-attachments/assets/b1398ba0-0a74-4afa-9ef5-c728d2251ce1
+
+
+
 
 ## Features
 
