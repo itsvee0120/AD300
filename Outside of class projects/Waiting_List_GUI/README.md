@@ -1,123 +1,136 @@
-# Waiting List Manager - README
 
-## Project Overview
 
-The **Waiting List Manager** is a Java-based GUI application that allows users to manage a queue of individuals waiting for service. It provides an intuitive interface for adding, serving, and managing names in a waiting list, ensuring that each name is unique and handled systematically.
+# Waiting List Manager
 
-This project demonstrates the use of Java Swing for GUI design and data structures like `Queue` and `Set` to manage the waiting list efficiently.
+## Overview
 
----
+The **Waiting List Manager** is a Java-based graphical user interface (GUI) application that helps you manage a queue of people in a waiting list. Using Java Swing for the GUI, this application allows you to add, serve, and check people on the waiting list, as well as perform other essential list operations such as deleting, resetting, and displaying the entire list.
+
+
+## Download the application on to your computer
+Download the application Geometry Calculator.exe [here](https://drive.google.com/file/d/1-r_EyXH2sYvOoGV2jGeMgnPpQSmV1TQQ/view?usp=drive_link)
+
+**To download and run the applications please ensure you have [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+installed on your machine.**
+
+## Demo
 
 ## Features
 
-1. **Add Person**  
-   Adds a new person to the waiting list. Ensures that duplicate names are not allowed.
+The application offers the following features:
 
-2. **Serve Person**  
-   Removes the next person in line from the waiting list and displays their name.
+- **Add Person**: Adds a person to the waiting list.
+- **Serve Person**: Removes the next person in line from the waiting list.
+- **Check Next Person**: Displays the name of the next person without removing them.
+- **Check By Name**: Checks if a specific person is in the waiting list.
+- **Delete By Name**: Removes a person from the waiting list based on their name.
+- **List Size**: Displays the current size of the waiting list.
+- **Display List**: Shows all people in the waiting list.
+- **Reset The List**: Clears the entire waiting list.
+- **Clear Result Area**: Clears the displayed results in the text area.
 
-3. **Check Next Person**  
-   Displays the name of the person who will be served next without removing them from the list.
+## Requirements
 
-4. **Check By Name**  
-   Verifies if a specific name exists in the waiting list.
+- **Java 8** or higher.
+- **IDE**: Any Java IDE (Eclipse, IntelliJ IDEA, NetBeans) or command line.
 
-5. **List Size**  
-   Displays the current number of people in the waiting list.
+## Installation and Running the Application
 
-6. **Display List**  
-   Shows all names currently in the waiting list.
+1. **Clone the Repository**:
+   Clone this repository to your local machine using Git or download the ZIP file and extract it.
 
-7. **Reset**  
-   Clears the entire waiting list and resets the input and result areas.
+   ```bash
+   git clone <repository-url>
+   ```
 
----
+2. **Compile the Program**:
+   If using a terminal, navigate to the folder containing `WaitingListManagerGUI.java` and compile it using the following command:
 
-## How to Run
+   ```bash
+   javac WaitingListManagerGUI.java
+   ```
 
-1. **Prerequisites**  
-   Ensure you have Java installed on your system. The program requires **Java 8** or later.
+3. **Run the Program**:
+   After compilation, run the application with the command:
 
-2. **Compilation and Execution**
-    - Compile the program using the following command:
-      ```bash
-      javac WaitingListManagerGUI.java
-      ```
-    - Run the program with:
-      ```bash
-      java WaitingListManagerGUI
-      ```
+   ```bash
+   java WaitingListManagerGUI
+   ```
 
-3. The GUI window will launch, and you can interact with the application using the provided buttons and text fields.
+   Alternatively, you can open the project in an IDE and run the program directly.
 
----
+## GUI Description
 
-## GUI Components
+- **Main Frame**: A JFrame containing all components, such as buttons, text fields, and a result area.
+- **Enter Name Field**: A text field where users can input the name of a person to be added, checked, or deleted from the waiting list.
+- **Buttons**: The application has several buttons for various operations (add, serve, delete, etc.), and each button triggers a specific action on the waiting list.
+- **Result Area**: A JTextArea that displays the results of operations like serving a person, checking the list, and errors.
 
-- **Title**: Displays the application title at the top of the window.
-- **Name Input Field**: A text field for entering names to add or check in the waiting list.
-- **Buttons**: Each button performs a specific action related to the waiting list.
-- **Result Display Area**: A scrollable text area for displaying messages and the waiting list status.
+### Layout
 
----
+- **Title**: The application title "Waiting List Manager" is displayed at the top of the screen.
+- **Button Panel**: Buttons are arranged in a grid layout for easy access. The buttons are used to interact with the waiting list.
+- **Result Area**: The result area displays the output of each operation, such as the names in the waiting list or an error message.
 
-## Code Highlights
+## Button Actions and Functionality
 
-1. **Data Structures**:
-    - `Queue<String>`: Used to manage the order of names in the waiting list.
-    - `Set<String>`: Ensures that names are unique.
+Each button performs a specific operation on the waiting list:
 
-2. **Swing Components**:
-    - `JFrame`: Main application window.
-    - `JTextField`: Input field for user input.
-    - `JTextArea` and `JScrollPane`: For displaying results with a scrollable view.
-    - `JButton`: Interactive buttons to trigger actions.
-
-3. **Event Handling**:  
-   All buttons are equipped with `ActionListener` to handle user actions.
-
-4. **User Feedback**:  
-   The `resultArea` provides real-time feedback for all operations.
-
----
+- **Add Person**: Adds the person entered in the text field to the waiting list if they are not already present. If the name is empty or already exists, a warning message is shown.
+- **Serve Person**: Removes the first person in the list (the one who has been waiting the longest) and displays a message with their name.
+- **Check Next Person**: Displays the next person in line without removing them.
+- **Check By Name**: Allows you to check if a specific name exists in the waiting list.
+- **Delete By Name**: Removes a person from the waiting list based on the entered name.
+- **List Size**: Displays the current size of the waiting list.
+- **Display List**: Displays all names currently in the waiting list.
+- **Reset The List**: Clears all entries in the waiting list after a confirmation dialog.
+- **Clear Result Area**: Clears the output displayed in the result area.
 
 ## Example Usage
 
-1. **Adding Names**:
-    - Enter "John" in the name field and click *Add Person*.  
-      Output:
-      ```
-      John has been added to the waiting list.
-      ```
+### Adding People to the Waiting List:
+1. Type a name in the **Enter Name** field.
+2. Click **Add Person** to add that person to the list.
+3. If the person is already in the list, a message will be shown in the result area.
 
-2. **Serving a Person**:
-    - Click *Serve Person*.  
-      Output:
-      ```
-      John has been served.
-      ```
+### Serving People:
+1. Click **Serve Person** to serve (remove) the first person in the queue.
+2. The name of the served person will be displayed in the result area.
 
-3. **Displaying the List**:
-    - Click *Display List*.  
-      Output:
-      ```
-      Waiting List: Alice, Bob, Charlie
-      ```
+### Checking Next Person:
+1. Click **Check Next Person** to display the name of the next person without removing them from the list.
 
-4. **Resetting the List**:
-    - Click *Reset*.  
-      Output:  
-      (Clears all data)
+### Deleting a Person by Name:
+1. Enter the name of the person to delete in the **Enter Name** field.
+2. Click **Delete By Name** to remove them from the list if they are present.
 
----
+### Displaying the List:
+1. Click **Display List** to show all the names in the waiting list.
 
-## Customization
+### Resetting the List:
+1. Click **Reset The List** to clear all people from the waiting list after a confirmation dialog.
 
-1. **Modify GUI Appearance**:
-    - Change colors, fonts, and layout settings by modifying the `initializeGUI()` method.
 
-2. **Extend Functionality**:
-    - Add features like saving/loading the waiting list or integrating a database for persistence.
+## Code Structure
+
+The program is structured as follows:
+
+- **WaitingListManagerGUI.java**: The main Java class that contains the GUI and logic for handling the waiting list.
+- **Imports**: Uses Java Swing components such as `JFrame`, `JButton`, `JTextArea`, and `JTextField` to create the user interface.
+- **Collections**: A `Queue<String>` (LinkedList) is used to maintain the waiting list, and a `Set<String>` (HashSet) is used to track unique names.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contributing
+
+If you want to contribute to the development of this project, feel free to fork the repository, make changes, and submit a pull request. Any contributions are welcome!
+
+## Acknowledgments
+
+- Thanks to the Java community for the Swing library, which makes GUI development in Java accessible and efficient.
+- Inspiration for the project came from real-world waiting list management systems.
 
 ---
 
