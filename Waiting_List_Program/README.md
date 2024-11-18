@@ -34,7 +34,7 @@ A simple Java program that simulates a waiting list for a service (e.g., a resta
    ```
 2. Navigate to the project directory:
    ```bash
-   cd AD300/WaitingListManager
+   cd AD300/Waiting_List_Program
    ```
 
 3. Open the project in your preferred Java IDE or compile the files manually.
