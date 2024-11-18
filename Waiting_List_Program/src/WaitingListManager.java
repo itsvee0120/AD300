@@ -51,13 +51,13 @@ public class WaitingListManager {
         return waitingList.size();
     }
 
-   void displayWaitingList(){
-        if(waitingList.isEmpty()){
-            System.out.println("Waiting list is empty");
-        } else{
-            System.out.println("Waiting List: "+ waitingList);
+    public void displayWaitingList() {
+        if (waitingList.isEmpty()) {
+            System.out.println("Waiting list is empty.");
+        } else {
+            System.out.println("Waiting List: " + String.join(", ", waitingList));
         }
-
     }
+
 
 }
