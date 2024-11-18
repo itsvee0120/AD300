@@ -11,6 +11,10 @@ This project demonstrates the use of Java Swing for GUI design and data structur
 ## Download the application on to your computer
 Download the application Geometry Calculator.exe [here](https://drive.google.com/file/d/1-r_EyXH2sYvOoGV2jGeMgnPpQSmV1TQQ/view?usp=drive_link)
 
+**To download and run the applications please ensure you have [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+installed on your machine.**
+
+
 ## Features
 
 1. **Add Person**  
