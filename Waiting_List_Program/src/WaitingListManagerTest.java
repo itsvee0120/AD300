@@ -43,11 +43,11 @@ class WaitingListManagerTest {
     void testIsPersonInList() {
         // Add a person to the list and check
         manager.addPerson("Charlie");
-        assertTrue(manager.isPersonInList("Charlie"));
+    assertTrue(manager.isPersonInList("Charlie"));
 
-        // Check for a person not in the list
-        assertFalse(manager.isPersonInList("Diana"));
-    }
+    // Check for a person not in the list
+    assertFalse(manager.isPersonInList("Diana"));
+}
 
     @Test
     void testWaitingListSize() {
