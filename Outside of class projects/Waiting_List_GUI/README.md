@@ -49,7 +49,7 @@ The application offers the following features:
    Clone this repository to your local machine using Git or download the ZIP file and extract it.
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/itsvee0120/AD300.git
    ```
 
 2. **Compile the Program**:
