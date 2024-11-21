@@ -135,7 +135,7 @@ The program is structured as follows:
 
 ## License
 
-This project is open source and available under the [MIT License](https://github.com/itsvee0120/AD300/blob/main/Outside%20of%20class%20projects/Waiting_List_GUI/MIT%20License.txt).
+This project is open source and available under the [MIT License](LICENSE).
 
 ## Contributing
 
