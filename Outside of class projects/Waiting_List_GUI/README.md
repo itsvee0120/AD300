@@ -146,7 +146,6 @@ If you want to contribute to the development of this project, feel free to fork 
 ## Known Limitations
 
 - The waiting list is not persistent and resets when the application is closed.
-- Names are case-sensitive; "John" and "john" are treated as different names.
 
 ---
 

@@ -109,7 +109,7 @@ public class WaitingListManagerGUI {
 
         // Add button functionality
         addButton.addActionListener(e -> {
-            String name = nameField.getText().trim();
+            String name = nameField.getText().trim().toLowerCase();
             if (name.isEmpty()) {
                 JOptionPane.showMessageDialog(
                         frame,
@@ -136,7 +136,7 @@ public class WaitingListManagerGUI {
                         JOptionPane.WARNING_MESSAGE
                 );
             } else {
-                String servedPerson = waitingList.poll();
+                String servedPerson = waitingList.poll().toLowerCase();
                 uniqueNames.remove(servedPerson);
                 resultArea.append(servedPerson + " has been served.\n");
             }
@@ -164,7 +164,7 @@ public class WaitingListManagerGUI {
                         JOptionPane.WARNING_MESSAGE
                 );
             } else {
-                String name = nameField.getText().trim();
+                String name = nameField.getText().trim().toLowerCase();
                 if (uniqueNames.contains(name)) {
                     resultArea.append(name + " is in the waiting list.\n");
                 } else {
@@ -174,7 +174,7 @@ public class WaitingListManagerGUI {
         });
 
         deleteByNameButton.addActionListener(e -> {
-            String name = nameField.getText().trim(); // Get the name from the text field
+            String name = nameField.getText().trim().toLowerCase(); // Get the name from the text field
             if (name.isEmpty()) {
                 JOptionPane.showMessageDialog(
                         frame,

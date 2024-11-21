@@ -16,9 +16,9 @@ public class WaitingListManager {
         if(uniqueNames.contains(name)){
             System.out.println("This person already exists");
         }else{
-            waitingList.offer(name);
-            uniqueNames.add(name);
-            System.out.println(name + " has been added to the waiting list.");
+            waitingList.offer(name.toLowerCase());
+            uniqueNames.add(name.toLowerCase());
+            System.out.println(name.toLowerCase() + " has been added to the waiting list.");
         }
     }
 
