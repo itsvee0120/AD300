@@ -38,6 +38,11 @@ The application offers the following features:
 - **Reset The List**: Clears the entire waiting list.
 - **Clear Result Area**: Clears the displayed results in the text area.
 
+
+**Names added to the waiting list will be automatically converted to lowercase.
+Additionally, all features mentioned above are also converted to lowercase to 
+ensure case-insensitive handling.**
+
 ## Requirements
 
 - **Java 8** or higher.
