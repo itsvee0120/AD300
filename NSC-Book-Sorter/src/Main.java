@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 // Main class to test sorting
@@ -27,13 +28,15 @@ public class Main {
         books.add(new Book("Bartleby the Scrivener", "Herman Melville", 1853));
         books.add(new Book("Moby Dick", "Herman Melville", 1851));
 
+        Collections.shuffle(books); // Randomized the books list order
+
         // Display books in random order before sorting
         System.out.println("Books in random order:");
         books.forEach(System.out::println);
 
         // Sorting by title (default sorting using Comparable)
         System.out.println("\nBooks sorted by Title:");
-        books.sort(null); // Uses Comparable (sorting by title)
+        Collections.sort(books); // Uses Comparable (sorting by title)
         books.forEach(System.out::println);
 
         // Sorting by author
