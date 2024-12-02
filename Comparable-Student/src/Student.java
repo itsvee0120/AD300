@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Student implements Comparable<Student> {
     // Properties
     private int studentId;
