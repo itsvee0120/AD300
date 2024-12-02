@@ -1,7 +1,4 @@
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     // Method to print each item in the collection
@@ -52,7 +49,7 @@ public class Main {
         System.out.println("Popped element: " + intStack.pop()); // Output: 20
 
         // Uncomment to test what happened to popping Stack empty:
-        // System.out.println("Popped element: " + intStack.pop()); // Output: 10
+       //  System.out.println("Popped element: " + intStack.pop()); // Output: 10
         // System.out.println("Popped element: " + intStack.pop()); // Output: Illegal Exception
 
         System.out.println("\nElements left in stack:");
@@ -78,38 +75,40 @@ public class Main {
 
 
         System.out.println("\nTest Sort Utility:");
-        System.out.println("Sort Integer:");
-        Integer[] intArray = {34, 12, 56, 1, 90, 23};
-        System.out.println("Before Sorting:");
-        for (int num : intArray) {
-            System.out.print(num + " ");
-        }
+        // Sorting a list of Integers
+        // Sorting a list of Integers
+        ArrayList<Integer> intList = new ArrayList<>();
+        intList.add(5);
+        intList.add(2);
+        intList.add(8);
+        intList.add(1);
+        intList.add(3);
 
-        // Use Arrays.sort() for sorting arrays
-        Arrays.sort(intArray);
+        System.out.println("Before sorting Integer list: " + intList);
+        GenericSortUtility.sort(intList);
+        System.out.println("After sorting Integer list: " + intList);
 
-        System.out.println("\nAfter Sorting:");
-        for (int num : intArray) {
-            System.out.print(num + " ");
-        }
+        // Sorting a list of Strings
+        ArrayList<String> stringList = new ArrayList<>();
+        stringList.add("Banana");
+        stringList.add("Apple");
+        stringList.add("Cherry");
+        stringList.add("Date");
 
-        System.out.println();
-        System.out.println("\nSort Double (Descending):");
+        System.out.println("\nBefore sorting String list: " + stringList);
+        GenericSortUtility.sort(stringList);  // Now works correctly
+        System.out.println("After sorting String list: " + stringList);
 
-        // Example: Sorting a Double array in descending order
-        Double[] doubleArray = {34.5, 12.1, 56.7, 1.3, 90.2, 23.6};
-        System.out.println("Before Sorting:");
-        for (Double num : doubleArray) {
-            System.out.print(num + " ");
-        }
+        // Sorting a list of a custom class implementing Comparable
+        ArrayList<Person> personList = new ArrayList<>();
+        personList.add(new Person("Alice", 30));
+        personList.add(new Person("Bob", 25));
+        personList.add(new Person("Charlie", 35));
 
-        // Use Arrays.sort() for sorting arrays in descending order
-        Arrays.sort(doubleArray, Collections.reverseOrder());
+        System.out.println("\nBefore sorting Person list: " + personList);
+        GenericSortUtility.sort(personList);
+        System.out.println("After sorting Person list: " + personList);
 
-        System.out.println("\nAfter Sorting (Descending):");
-        for (Double num : doubleArray) {
-            System.out.print(num + " ");
-        }
 
         System.out.println();
         System.out.println("\nTest WildCard Print Collection:");
@@ -165,24 +164,19 @@ public class Main {
         // Add items from Double Cache to Number Cache using addAll
         Cache<Number> numberCache = new Cache<>();
         numberCache.add(100);  // Adding Integer to Number Cache
+        numberCache.printCache();
 
-        System.out.println("\nCreate new Int & Double Cache List:");
-        Cache<Integer> intCache2 = new Cache<>();
-        intCache2.add(4);
-        intCache2.add(5);
-        intCache2.add(6);
-        intCache2.printCache();
-
+        System.out.println("\nCreate new Double Cache List:");
         Cache<Double> doubleCache2 = new Cache<>();
         doubleCache2.add(44.5);
         doubleCache2.add(66.8);
         doubleCache2.add(88.9);
         doubleCache2.printCache();
 
-       intCache2.addAll(doubleCache2);  // Adding Double Cache to Number Cache
+        numberCache.addAll(doubleCache2); // Adding Double Cache to Number Cache
 
         System.out.println("\nNumber Cache after adding Double Cache:");
-        intCache2.printCache();
+        numberCache.printCache();
     }
     }
 

@@ -27,13 +27,15 @@ public class Cache<T> {
     }
 
     // Add all items from another cache of compatible type to this cache
-    // Using a bounded wildcard to allow subtypes of T, such as Cache<Number> to Cache<Integer>
-    public void addAll(Cache<Double> otherCache) {
+// Using a bounded wildcard to allow subtypes of T
+    public void addAll(Cache<? extends T> otherCache) {
         // Iterate over all items in the other cache and add them to this cache
-        for (Map.Entry<Integer, Double> entry : otherCache.cache.entrySet()) {
-            cache.put(currentKey++, (T) entry.getValue());  // Add to the current cache
+        for (Map.Entry<Integer, ? extends T> entry : otherCache.cache.entrySet()) {
+            cache.put(currentKey++, entry.getValue());
         }
     }
+
+
 
     // Print the contents of the cache
     public void printCache() {
