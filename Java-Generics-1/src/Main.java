@@ -23,8 +23,18 @@ public class Main {
         intBox.printBoxWildcard(intBox);  // Box contains: 42
         doubleBox.printBoxWildcard(doubleBox);  // Box contains: 3.14
 
+        // Using NumberBox
+        System.out.println("\nTesting NumberBox:");
+        NumberBox<Integer> numBoxInt = new NumberBox<>();
+        numBoxInt.set(100);
+        numBoxInt.printBox(numBoxInt);
+
+        NumberBox<Double> numBoxDouble = new NumberBox<>();
+        numBoxDouble.set(3.14);
+        numBoxDouble.printBox(numBoxDouble);
+
         // Wildcard method doesn't work for non-Number types
-        // strBox.printBoxWildcard(strBox); // This will not compile because String is not a subtype of Number
+       // strBox.printBoxWildcard(strBox); // This will not compile because String is not a subtype of Number
 
         // This will not compile:
         //NumberBox<String> stringBox = new NumberBox<>();
