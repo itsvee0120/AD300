@@ -27,7 +27,7 @@ src/
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone <https://github.com/itsvee0120/AD300/tree/main/Stream_API>
    ```
 2. Compile the Java files:
    ```bash
